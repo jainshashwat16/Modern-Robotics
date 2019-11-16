@@ -1,5 +1,5 @@
 function [thetalist, success] = IKinBodyIterates(Blist, M, T, thetalist0, eomg, ev)
-% *** CHAPTER 6: INVERSE KINEMATICS ***
+
 % Takes Blist: The joint screw axes in the end-effector frame when the
 %              manipulator is at the home position, in the format of a 
 %              matrix with the screw axes as the columns,
